@@ -53,18 +53,9 @@
                     <li><a href="#Resume">Resume</a></li>
 
 
-
                 </ul>
-            </nav>
 
-            <script src="./my cv/assets/js/worker.js"></script>
 
-            <nav>
-
-                <ul>
-                    <li><a href="#Certificates">certificates</a></li>
-
-                </ul>
 
 
             </nav>
@@ -227,31 +218,7 @@
             </article>
         </div>
 
-        <div id="sid">
-            <article id="Certificates">
-                <h2> Cetificates</h2>
 
-                <img src="my cv/images/certficate for remote learning.jpg"></img>
-
-                <button="download">
-                    <a href="my cv/assets/word-pdf/statement.certificate 1.pdf">download certficate</a>
-                    </button>
-
-                    <img src="my cv/images/system modelling cert.jpg"></img>
-
-                    <button="download">
-                        <a href="my cv/assets/word-pdf/system modelling cert.pdf">download certificate</a>
-                        </button>
-
-                        <img src="my cv/images/"></img>
-                        <button="download">
-                            <a href="my cv/assets/word-pdf/diploma cybersecurity course completion.pdf">download certificate</a>
-                            </button>
-
-
-
-            </article>
-        </div>
 
 
         <article id="elements ">
@@ -303,39 +270,13 @@
                 </form>
             </section>
 
-            <script>
-                document.getElementById('contact-form').addEventListener('submit', function(e) {
-                    e.preventDefault(); // Prevent the default form submission
-
-                    // Call the submit function
-                    submit();
-                });
-
-                function submit() {
-                    // Get the form inputs
-                    let name = document.getElementById('name').value;
-                    let email = document.getElementById('email').value;
-                    let category = document.getElementById('category').value;
-                    let message = document.getElementById('message').value;
-
-                    // Compose the email body
-                    let subject = 'Form Submission';
-                    let body = `Name: ${name}\nEmail: ${email}\nCategory: ${category}\nMessage: ${message}`;
-
-                    // Generate the mailto URL
-                    let mailtoUrl = `mailto:sidokyalo@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-                    // Open the email client
-                    window.location.href = mailtoUrl;
-                }
-            </script>
         </article>
 
     </div>
 
 
     <!-- BG -->
-    <div id="bg ">
+    <div id="bg">
 
     </div>
 
