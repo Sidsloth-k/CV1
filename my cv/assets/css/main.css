@@ -1189,10 +1189,10 @@
         -ms-transition-delay: 0.75s;
         transition-delay: 0.75s;
         background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/sid2.jpg");
-        background-size: auto;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        z-index: 2;
+        z-index: 1;
     }
     
     #bg:after {
